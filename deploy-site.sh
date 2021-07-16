@@ -20,4 +20,4 @@ git config --global user.name "<username>"
 git init
 git add .
 git commit -m "push build to git deploy Repository"
-git push https://${GIT_CREDS}@github.com/MovingBlocks/ HEAD: <respository >.git <branch >-f
+git push https://${GIT_CREDS}@github.com/<username>/ HEAD: <respository>.git <branch> -f
